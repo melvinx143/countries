@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="./countries.css" />
+  </head>
+  <body>
+    <div class="totalcontent">
+      <div class="searchcontent">
+        <input type="text" placeholder="Search a Country" class="searchvalue" />
+        <button class="btn" onclick="countries()">Search</button>
+      </div>
+      <div class="innersection">
+        <img
+          src="./img1.jpg"
+          class="countryflag"
+          height="200px"
+          width="500px"
+          alt="flags"
+        />
+        <h1 class="invalidchoice" style="color: #ff0000"></h1>
+        <div class="contentinside">
+          <h4>Country:<span class="countryname"></span></h4>
+          <h4>Capital:<span class="capital"></span></h4>
+          <h4>Languages:<span class="languages"></span></h4>
+          <h4>Continent:<span class="continent"></span></h4>
+          <h4>Currency:<span class="currency"></span></h4>
+          <h4>Neighbours:<span class="neighbours"></span></h4>
+          <h4>Areas(km2):<span class="areas"></span></h4>
+          <h4>Population:<span class="population"></span></h4>
+          <h4>Subregion:<span class="subregion"></span></h4>
+        </div>
+      </div>
+    </div>
+    <script src="./countries.js"></script>
+  </body>
+</html>

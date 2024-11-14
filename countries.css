@@ -1,0 +1,65 @@
+.contentinside
+{
+    display:grid;
+    grid-template-columns: repeat(3,500fr);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border:1px solid #000000;
+    padding:5px;
+    box-sizing: border-box;
+    box-shadow:12px 12px 12px #808080;
+    gap:4rem;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+}
+span{
+    color:#ffffff;
+}
+.countryflag
+{
+    box-shadow:12px 12px 12px #808080;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+input{
+    padding:10px;
+    width:200px;
+}
+button{
+    padding:10px;
+    cursor: pointer;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: linear-gradient(#000000,#808080);
+}
+.searchcontent
+{
+    display:flex;
+}
+.totalcontent
+{
+    display:flex;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.searchvalue
+{
+    color:#008000;
+}
